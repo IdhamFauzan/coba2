@@ -28,9 +28,12 @@
 => Menambahkan file2 atau folder2 ke staging area sebelum di commit. ganti nama file dengan titik ( . ) di akhir command jika ingin include semua file dan folder <br>
 * `git status` => Mengecek status terkini dari flow git di projek kita.
 
-3. `git commit -m "message here"` =>  Mengcommit file atau folder yg sudah ditambahkan di staging area ke local repo sebelum dipush ke github
+3. `git commit -m "message here"` =>  Mengcommit file atau folder yg sudah ditambahkan di staging area ke local repo sebelum dipush ke github <br>
+* Ada dua shortcut untuk git add dan commit sekaligus : <br>
+` git commit -am "message here" ` <br>
+` git add . && git commit -m "message here" `
 
-4. `git push` => Jika ingin ngepush pertama kali ke github maka terlebih dahulu harus add new repo di github, kemudian ikuti langkah2 command untuk ` ...or push an existing repository from cli ` yg mana terdiri dari 3 command :<br>
+5. `git push` => Jika ingin ngepush pertama kali ke github maka terlebih dahulu harus add new repo di github, kemudian ikuti langkah2 command untuk ` ...or push an existing repository from cli ` yg mana terdiri dari 3 command :<br>
 ` git remote add origin https://github.com/{github username}/{github repo}.git ` <br>
 ` git branch -M main `<br>
 ` git push -u origin main `<br>
@@ -38,4 +41,6 @@ tapi untuk push yg kedua kali dan seterusnya cukup dengan `git push`<br>
 
 ## Remote Repo(Github)
 
-- `git pull` =>
+- `git pull` => Jika sebelumnya sudah pernah push dari local repo ke github dan melakukan perubahan folder atau kode pada file di githubnya langsung. Kemudian ingin perubahan ini juga berlaku di local repo maka cukup menggunakan command `git pull`
+
+- `git clone` => Jika ada repo milik sendiri atau orang lain(yg disetting public) dan ingin mengclonenya ke local repo kita cukup dapatkan path https dari githubnya kemudian command `git clone https://github.com/{github username}/{github repo}.git .` Jangan lupa tambahkan titik di akhir agar diclone di folder saat ini tanpa membuat folder baru dan memasukkan hasil clone di dalamnya.

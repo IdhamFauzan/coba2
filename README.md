@@ -30,5 +30,5 @@ git config --list --show-origin
 
 3. git commit -m "message here" =>  Mengcommit file atau folder yg sudah ditambahkan di staging area ke local repo sebelum di push ke github
 
-4. git push
+4. git push => Jika ingin ngepush pertama kali ke github maka terlebih dahulu harus add new repo di github, kemudian ikuti langkah2 command untuk ` ...or push an existing repository from cli ` yg mana berisi
 

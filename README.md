@@ -1,5 +1,7 @@
 # Git x Github workflow basic for beginner
 
+![20250301_130353](https://github.com/user-attachments/assets/e37bf948-4579-4580-bfef-db0c5fbb1e2e)
+
 ## Mengatur config global untuk pertama kali username dan user email, serta mengatur nama default branch(best practicenya mengubah yg default awalnya 'master' menjadi 'main' karena 'main' sesuai dengan kaidah di github
 `git config --global user.name fauzan hamdi` <br>
 `git config --global user.email fauzanhamdi5@gmail.com` <br>
@@ -44,3 +46,13 @@ tapi untuk push yg kedua kali dan seterusnya cukup dengan `git push`<br>
 - `git pull` => Jika sebelumnya sudah pernah push dari local repo ke github dan melakukan perubahan folder atau kode pada file di githubnya langsung. Kemudian ingin perubahan ini juga berlaku di local repo maka cukup menggunakan command `git pull`
 
 - `git clone` => Jika ada repo milik sendiri atau orang lain(yg disetting public) dan ingin mengclonenya ke local repo kita cukup dapatkan path https dari githubnya kemudian command `git clone https://github.com/{github username}/{github repo}.git .` Jangan lupa tambahkan titik di akhir agar diclone di folder saat ini tanpa membuat folder baru dan memasukkan hasil clone di dalamnya.
+
+## What to learn next?
+
+- Branching
+- Pull Request
+- Merging
+- Etc.
+
+
+### Source : https://www.youtube.com/watch?v=vA5TTz6BXhY&t=1805s
